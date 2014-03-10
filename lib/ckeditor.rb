@@ -26,7 +26,7 @@ module Ckeditor
     autoload :Dragonfly, 'ckeditor/backend/dragonfly'
   end
 
-  IMAGE_TYPES = %w()
+  IMAGE_TYPES = %w(image/jpeg image/png image/gif image/jpg image/pjpeg image/tiff image/x-png doc docx xls odt ods pdf rar zip tar tar.gz swf)
 
   DEFAULT_AUTHORIZE = Proc.new {}
 
